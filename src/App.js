@@ -1,10 +1,13 @@
 import './App.css';
-import PostsContainer from './components/PostsContainer';
+import React, { useEffect } from 'react'
 
 function App() {
   return (
     <div className="App">
-      <PostsContainer />
+      <h1>"joke"</h1>
+      <button>show punchline</button>
+      <h2>"punchline"</h2>
+      <button>new joke</button>
     </div>
   );
 }
